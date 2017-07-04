@@ -35,6 +35,10 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/init.device.rc:root/init.device.rc
 
+# Bootlogo
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/logo.rle:root/logo.rle
+
 # Audio
 PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/audio/mixer_paths.xml:system/etc/mixer_paths.xml
