@@ -16,4 +16,5 @@
   <project name="LineageOS/android_external_stlport" path="external/stlport" />
   <project name="sonyxperiadev/vendor-qcom-opensource-location" path="vendor/qcom/opensource/location" revision="refs/heads/master" />
   <project name="sonyxperiadev/boringssl-compat" path="external/sony/boringssl-compat" revision="refs/heads/master" />
+  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="android-7.1.2_27" remote="aosp" />
 </manifest>
