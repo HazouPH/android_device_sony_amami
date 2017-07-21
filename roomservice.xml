@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="SuperLamic/proprietary_vendor_sony" path="vendor/sony" revision="gps" />
-  <project name="SuperLamic/android_kernel_sony_msm8974" path="kernel/sony/msm8974" revision="cm-14.1" />
+  <project name="SpiritCroc/android_kernel_sony_msm8974" path="kernel/sony/msm8974" revision="AICP-n7.1-laos" />
   <project name="SuperLamic/android_device_sony_honami" path="device/sony/honami" revision="cm-14.1" />
   <project name="HazouPH/android_device_sony_amami" path="device/sony/amami" revision="cm-14.1" />
   <project name="SuperLamic/android_device_sony_rhine-common" path="device/sony/rhine-common" revision="gps" />
@@ -13,5 +13,5 @@
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" />
   <project name="LineageOS/android_external_stlport" path="external/stlport" />
   <project name="sonyxperiadev/boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="master" />
-  <project name="johnzweng/platform_packages_apps_SmartCardService" path="packages/apps/SmartCardService" remote="github" revision="android-6.0.0_scapi-4.0.0_no_system_patches_needed" />
+  <project name="johnzweng/platform_packages_apps_SmartCardService" path="packages/apps/SmartCardService" remote="github" revision="61d8f65e3d778d2efdbc70e44810df260e019678" />
 </manifest>
