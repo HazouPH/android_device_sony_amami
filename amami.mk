@@ -43,6 +43,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/configs/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf
 
+# SmartcardService
+PRODUCT_PACKAGES += \
+    SmartcardService \
+    org.simalliance.openmobileapi.xml \
+    org.simalliance.openmobileapi
+
 # Thermal manager
 PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/configs/thermanager.xml:system/etc/thermanager.xml
